@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'comic sans ms', Arial, Helvetica, sans-serif;    
+}
+
+nav{
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    padding: 5px 10%;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav ul{
+    /* background-color: red; */
+    width: 100%;    
+    text-align: right;
+    padding-right: 20px;    
+}
+
+nav ul li{            
+    display: inline-block;
+
+}
+
+nav ul li a{
+    display: block;
+    /* background-color: lightcoral; */
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-size: .9rem;
+}
+
+nav ul li a:hover{
+    color: rgb(34, 34, 34);
+    background-color: #fff;
+}
+
+.user-pic{
+    width: 40px;
+    border-radius: 50%;
+}
+
+
